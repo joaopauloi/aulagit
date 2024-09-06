@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(178, 177, 241);
+ 
+}
+#html{
+    width: 10%;
+}
+
+figure{
+    margin-left: 30%;
+    margin-right: auto;
+}
+table, tr, td, th{
+    border: solid;
+    border-color: coral;
+    border-collapse: collapse;
+    border-width: 1x;
+}
+
+td:hover{
+    background-color: blueviolet;
+    color: rgb(22, 28, 98);
+}
+
+@media(max-width: 500px) {
+    body{
+        background-color: blueviolet;
+    }
+}
